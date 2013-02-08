@@ -1,0 +1,49 @@
+/*
++----------------------------------------------------------------+
+	Reset CSS					
++----------------------------------------------------------------+
+*/
+body,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,blockquote,th,td,address {margin:0; padding:0}
+table {border-collapse:collapse; border-spacing:0; font-size:inherit}
+fieldset, img {border:0}
+a {margin:0; padding:0; text-decoration:none}
+
+/*
++----------------------------------------------------------------+
+	Extras														
++----------------------------------------------------------------+
+*/
+.alignleft {float:left}
+.alignright {float:right}
+.clearfix:before, .clearfix:after {content:"\0020"; display:block; height:0; visibility:hidden}
+.clearfix:after {clear:both}
+.clearfix {zoom:1}
+.clear {clear:both}
+.loading {display:block; margin:0 auto}
+
+/*
++----------------------------------------------------------------+
+	Definicoes Gerais														
++----------------------------------------------------------------+
+*/
+body {background-color:#F9EACD; font:62.5% "courier new", courier, monospace}
+
+/*
++----------------------------------------------------------------+
+	Title														
++----------------------------------------------------------------+
+*/
+h1 {color:#E16022; font-weight:normal; font-size:2.4em; text-align:center; margin:60px auto 0; width:500px}
+
+/*
++----------------------------------------------------------------+
+	Shots														
++----------------------------------------------------------------+
+*/
+#container {margin:30px auto 0; width:660px}
+
+.shots {float:left; height:220px; margin:0 20px 30px 0; overflow:hidden; width:144px}
+.shots a {color:#E16022; display:block; font-size:1.2em; font-weight:normal; letter-spacing:-0.05em; margin-bottom:7px}
+.shots a img {display:block; margin-left:-28px}
+.shots:hover a {color:#A9987D}
+.shots > a:hover {opacity:0.7}

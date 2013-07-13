@@ -1,4 +1,4 @@
-[Dribbble](http://cssnolanche.com.br/lab/dribbble/)
+[Dribbble](http://www.pinceladasdaweb.com.br/blog/uploads/dribbble/)
 =================
 
 Grab Dribbble feed with jQuery and Handlebars.
